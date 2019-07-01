@@ -3,9 +3,9 @@ import time
 from tqdm import tqdm
 import numpy as np
 import matplotlib.pyplot as plt
-from agents.phc_agent import PHCAgent
-from agents.policy import NormalPolicy
-from games.simple_game import SimpleGame
+from phc_agent import PHCAgent
+from policy import NormalPolicy
+from simple_game import SimpleGame
 
 if __name__ == '__main__':
 

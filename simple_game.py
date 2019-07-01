@@ -1,11 +1,7 @@
-from games.game import Game
 from tqdm import tqdm
 import numpy as np
 
-class SimpleGame(Game):
-    """
-        シンプルなmatrix game
-    """
+class SimpleGame():
     def __init__(self, nb_eps=1, nb_steps=10000,agents=None):
         self.agents = agents
         self.nb_steps = nb_steps
